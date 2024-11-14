@@ -29,4 +29,4 @@ jobs:
                   git config --local user.name "GitHub Action"
                   git add data/player/data.json
                   git add data/player/base.js
-                  git diff --quiet && git diff --staged --quiet || (git commit -m "Update player data" && git push)
+                  git diff --quiet && git diff --staged --quiet || (git commit -m "Update player data" && git push origin dev)
